@@ -1,0 +1,30 @@
+{
+  "scenarios": [
+    {
+      "id": "BROCCOLI",
+      "description": "Single item purchase",
+      "products": [{ "name": "Brocolli", "qty": 1 }]
+    },
+    {
+      "id": "TOMATO",
+      "description": "Single item multiple quantity",
+      "products": [{ "name": "Tomato", "qty": 3 }]
+    },
+    {
+      "id": "MULTI",
+      "description": "Multiple items single quantity",
+      "products": [
+        { "name": "Cucumber", "qty": 1 },
+        { "name": "Beans", "qty": 1 }
+      ]
+    },
+    {
+      "id": "MULTIQTY",
+      "description": "Multiple items multiple quantity",
+      "products": [
+       { "name": "Carrot - 1 Kg", "qty": 2 },
+        { "name": "Capsicum", "qty": 2 }
+      ]
+    }
+  ]
+}
